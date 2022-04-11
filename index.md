@@ -12,7 +12,7 @@ Run the installer and follow the install procedures
 
 ## Remotely Connecting
 
-![image](remote.png)
+![image](login.png)
 
 
 ## Try Some Commands
