@@ -6,22 +6,36 @@
 
 Download the VScode from https://code.visualstudio.com/
 
+Follow the instruction
+
 ![image](VScode.png)
 
-Run the installer and follow the install procedures
 
 ## Remotely Connecting
+
+* Install OpenSSH:
+https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
+
+* Look up account for CSE15L: 
+https://sdacs.ucsd.edu/~icc/index.php
+
+Run 'ssh cs15lsp22ahk@ieng6.ucsd.edu' in terminal:
 
 ![image](login.png)
 
 
 ## Try Some Commands
 
+Try commands ls, ls -lat:
+
 ![image](try.png)
 
 
 ## Move Files with scp
 
+use 'scp' command to copy WhereAmI.java from local computer to SSH server
+
+run ls to make sure it is in the server:
 ![image](move.png)
 
 
@@ -40,6 +54,10 @@ Note: I already have the file, so i can't create directory '.ssh'
 
 
 ## Optimizing Remote Running
+
+1. locally edit file WhereAmI.java
+2. In client, run 'scp', move eidted file to SSH server
+3. Run multiple command to compile and run WhereAmI.java while login 'ssh'. 
 
 ![image](run1.png)
 ![image](run2.png)
