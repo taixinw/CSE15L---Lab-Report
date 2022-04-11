@@ -41,4 +41,6 @@ Note: I already have the file, so i can't create directory '.ssh'
 
 ## Optimizing Remote Running
 
+![image](run1.png)
+![image](run2.png)
 
