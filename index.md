@@ -41,19 +41,24 @@ run ls to make sure it is in the server:
 
 ## Setting an SSH Key
 
-Step 1: ssh-keygen
+>Step 1: ssh-keygen
 
 ![image](setKey.png)
 
-Step 2: ssh-keygen -t ed25519
+>Step 2: ssh-keygen -t ed25519
 
 ![image](Set.png)
 
-Step 3: copy key to .ssh directory
+>Step 3: copy key to .ssh directory
 
 ![image](copy.png)
 
 Note: I already have the file, so i can't create directory '.ssh'
+
+
+>**The expected result are shown bellow:**
+
+![image](success.png)
 
 
 ## Optimizing Remote Running
