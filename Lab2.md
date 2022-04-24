@@ -7,12 +7,14 @@
 
 ## First bug
 
-File cause bug
+File cause bug:
+<br />
+
 ![Image](Lab2/test1code.png)
 
 <br />
 
-Code to fix
+Code to fix:
 <br />
 
 ```
