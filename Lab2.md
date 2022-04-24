@@ -8,7 +8,7 @@
 ## First bug
 
 File cause bug
-![Image](Lab2\test1code.png)
+![Image](Lab2/test1code.png)
 
 <br />
 
@@ -22,7 +22,7 @@ if (openBracket == -1) {
 ```
 <br />
 
-![Image](Lab2\test1fixed.png)
+![Image](Lab2/test1fixed.png)
 
 <br />
 
@@ -30,7 +30,7 @@ Symptom before fixed:
 
 <br />
 
-![Image](Lab2\test1error.png) 
+![Image](Lab2/test1error.png) 
 
 <br />
 
@@ -48,7 +48,7 @@ CurrentIndex will go back to -1 after all the links found. While loop is now `(c
 File cause bug:
 <br />
 
-![Image](Lab2\test2file.png)
+![Image](Lab2/test2file.png)
 <br />
 <br />
 
@@ -62,7 +62,7 @@ if (closeBracket == -1) {
 ```
 <br />
 
-![Image](Lab2\test2fixed.png)
+![Image](Lab2/test2fixed.png)
 
 <br />
 
@@ -70,7 +70,7 @@ Symptom before fixed:
 
 <br />
 
-![Image](Lab2\test2error.png) 
+![Image](Lab2/test2error.png) 
 
 <br />
 
@@ -88,7 +88,7 @@ Similar reason as test-file2, this bug cause infinite loop.
 File cause bug:
 <br />
 
-![Image](Lab2\test3file.png)
+![Image](Lab2/test3file.png)
 <br />
 <br />
 
@@ -102,13 +102,13 @@ if (closeParen == -1) {
 ```
 <br />
 
-![Image](Lab2\test3fixed.png)
+![Image](Lab2/test3fixed.png)
 
 <br />
 
 Symptom before fixed:
 
-![Image](Lab2\test3error.png) 
+![Image](Lab2/test3error.png) 
 
 <br />
 For the .md file that does not have valid link address, this bug occurs. 
